@@ -1,0 +1,42 @@
+# today we learn list 
+  #what is list? list is store multiple variable in one variable
+  name = ["mahad","saim","hafi"]
+  print(name)
+
+  #accessing list item (index)
+  #index [0] sa start hota hai 
+  for example
+name = ["mahad","saim","hafi"]
+  print(name[0]) #mahad
+  print(name[1]) #saim
+
+  #update or change list item
+  name[1] = "Qamar"
+  print (name)
+
+  #adding items
+  # append() add number or name to end to variable 
+  #insert () add number or name to spacific place
+  name.append("append")
+  name.insert(1,saim)
+  # remove command we use remove any varaible or sentence
+  name.remove("mahad")
+
+  #pop remove index from last
+  #if you use index number then remove other
+  name.pop()
+  name.pop(1)
+
+  #list len this feature we find len of list
+  print(len(name))
+
+  #loop through list
+  for item in names
+  print(item)
+
+  #check if item exit
+  if "mahad"in name:
+  print("found")
+  
+  
+  
